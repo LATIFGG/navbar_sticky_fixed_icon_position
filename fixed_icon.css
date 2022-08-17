@@ -1,0 +1,40 @@
+header {
+  position: sticky;
+  top: 0px;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.7;
+  /* position: sticky;
+    top: 0px;   nav da sticky kabul etmiyor. container div varsa ona sticky yazmak gerekiyor  yani burda header da yazinca kabul ediyor*/
+}
+.fa-bicycle {
+  color: red;
+  font-size: xx-large;
+  position: fixed;
+}
+section {
+  width: 80%;
+  margin: auto;
+  background-color: bisque;
+}
+.fa-bell {
+  position: fixed;
+  left: 90%;
+  top: 30%;
+  color: yellow;
+  font-size: xx-large;
+}
+.arrow {
+  font-size: xx-large;
+  color: black;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+}
